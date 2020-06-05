@@ -1,0 +1,85 @@
+
+
+body{
+    font-family: 'Indie Flower', cursive;
+    margin: 0 auto;
+    
+}
+
+.fullpage {
+    height: 100%, auto;
+    background-image: url(22.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+#content {
+    text-align: center;
+    padding: 25%;
+    text-shadow: 0px 4px 3px black,
+                 0px 8px 13px blue,
+                 0px 18px 23px wheat;
+}
+
+h1, h3 {
+    color: whitesmoke;
+
+}
+
+hr {
+    width: 250px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+.main-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    font-size: 1.7em;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-nav {
+        font-size: 1.3em;
+        padding: 0;
+    }
+}
+
+.push {
+    margin-left: auto;
+}
+
+li {
+    padding: 20px;
+}
+
+a {
+    color: cornflowerblue;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.findmoer {
+    transition: all 0.5s;
+    color: white;
+    background-color: cornflowerblue;
+    height: 30px;
+    border-radius: 5rem;
+    border-color: transparent;
+}
+
+.findmoer:hover {
+    text-decoration: none;
+    color: cornflowerblue;
+    background-color: white;
+    transform: scale(1.1);
+    
+    
+  }
+  
+a:active {
+    text-decoration: none;
+  }
